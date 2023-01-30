@@ -1,2 +1,4 @@
 # StamperPDF
-StamperPDF alpha 0.10
+StamperPDF
+
+Releases v0.10-alpha
