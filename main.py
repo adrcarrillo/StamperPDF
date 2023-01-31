@@ -6,7 +6,7 @@ import reducerPDF
 def run():
 
     # To be reviewed
-    parser = argparse.ArgumentParser(prog = 'StamperPDF',description='A PDF Stamper script.', epilog='software Alpha 0.10')
+    parser = argparse.ArgumentParser(prog = 'StamperPDF',description='A PDF Stamper script.', epilog='software v0.10-alpha')
     parser.add_argument('filename')
     parser.add_argument('-x', nargs='?', type=int, default=6, help ='Insert "x" distance in inches (integer number) : Default = 6 inch')
     parser.add_argument('-y', nargs='?', type=int, default=2, help ='Insert "y" distance in inches (integer number) : Default = 2 inch')
