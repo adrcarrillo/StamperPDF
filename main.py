@@ -3,28 +3,7 @@ import makeStamp
 import makeWatermark
 import reducerPDF
 
-"""
-from tqdm import tqdm
-from time import sleep
-"""
-
-
-"""
-parser = argparse.ArgumentParser(description='Process some integers.')
-parser.add_argument('integers', metavar='N', type=int, nargs='+',
-                    help='an integer for the accumulator')
-parser.add_argument('--sum', dest='accumulate', action='store_const',
-                    const=sum, default=max,
-                    help='sum the integers (default: find the max)')
-
-args = parser.parse_args()
-a = args.accumulate(args.integers)
-print(type(a))
-print(a)
-"""
-
 def run():
-
 
     # To be reviewed
     parser = argparse.ArgumentParser(prog = 'StamperPDF',description='A PDF Stamper script.', epilog='software Alpha 0.10')
@@ -35,7 +14,6 @@ def run():
     content_pdf = args.filename
     x = args.x
     y = args.y
-    #content_pdf=r'Z0-GH0171.pdf'
     print("Starting..")
 
     makeStamp.make_stamp(x,y) #Make stamp
@@ -53,12 +31,5 @@ def run():
     print('Complete!')
 
 if __name__ == "__main__":
-
     run()
-    """
-    pbar = tqdm(total=100)
-    for i in range(10):
-        pbar.update(10)
-        sleep(0.1)
-    pbar.close()
-    """
+
