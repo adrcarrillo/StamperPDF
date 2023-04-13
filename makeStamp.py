@@ -61,7 +61,7 @@ def make_stamp(x,y):
 
     # Write text
     #c.drawString(630,330,"Stamp")
-    c.drawCentredString((x_pos+75),(y_pos+63), "EFECTIVE ON")
+    c.drawCentredString((x_pos+75),(y_pos+63), "EFFECTIVE ON")
     c.drawCentredString((x_pos+75),(y_pos+7), "CONTROLLED")
 
     #Time
