@@ -1,4 +1,4 @@
 # StamperPDF
 StamperPDF
 
-Releases v0.10-alpha
+Releases v0.11-alpha
